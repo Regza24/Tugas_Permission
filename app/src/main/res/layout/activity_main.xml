@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Edit Profil"
+        android:gravity="center"
+        android:background="#575859"
+        android:textSize="30sp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+    />
+
+    <Button
+        android:id="@+id/btnProfil"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="150dp"
+        android:layout_centerHorizontal="true"
+        android:text="Foto Profil"
+        android:textSize="20sp"
+        android:drawableBottom="@drawable/ic_baseline_add"
+        android:background="@drawable/btnfoto"
+    />
+
+    <EditText
+        android:id="@+id/Nama"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/btnProfil"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Nama"
+        android:inputType="text"
+    />
+
+    <EditText
+        android:id="@+id/Bio"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/Nama"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Bio"
+        android:inputType="text"
+    />
+
+    <EditText
+        android:id="@+id/Website"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/Bio"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Website"
+        android:inputType="text"
+        />
+
+</RelativeLayout>
